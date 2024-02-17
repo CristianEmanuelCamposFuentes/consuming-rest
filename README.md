@@ -1,17 +1,33 @@
-# Getting Started
+# Proyecto Consumiendo un Servicio REST con Spring Boot
 
-### Reference Documentation
-For further reference, please consider the following sections:
+Este proyecto es un ejemplo de cómo consumir un servicio REST utilizando Spring Boot.
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.2.2/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.2.2/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/3.2.2/reference/htmlsingle/index.html#web)
+## Configuración del Proyecto
 
-### Guides
-The following guides illustrate how to use some features concretely:
+Para ejecutar el proyecto localmente, sigue estos pasos:
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+1. Clona el repositorio:
+
+`git clone https://github.com/spring-guides/quoters.git`
+
+
+2. Navega al directorio del proyecto:
+
+`cd quoters`
+
+
+3. Ejecuta el proyecto con Maven:
+
+`./mvnw spring-boot:run`
+
+
+## Uso
+
+Una vez que el proyecto esté en funcionamiento, puedes acceder a los siguientes endpoints:
+
+- [http://localhost:8080/api/random](http://localhost:8080/api/random): Obtiene una cita aleatoria sobre Spring Boot en formato JSON.
+
+## Recursos Adicionales
+
+Para obtener más información sobre cómo consumir servicios REST con Spring Boot, consulta la [documentación oficial](https://spring.io/guides/gs/consuming-rest/).
 
